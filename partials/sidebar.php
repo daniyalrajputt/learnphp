@@ -39,6 +39,7 @@
                                 <a class="nav-link" href="login.html">Login</a>
                                 <a class="nav-link" href="register.html">Register</a>
                                 <a class="nav-link" href="password.html">Forgot Password</a>
+                                <a class="nav-link" href="add_employee.php">Add Employee</a>
                             </nav>
                         </div>
                         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
