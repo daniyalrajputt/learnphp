@@ -14,7 +14,6 @@ if (isset($_POST['emp_name'])) {
         $msg = "Email Already Exists";
     } else {
         // inserting record
-        // $sql = "INSERT INTO `users`(`emp_name`, `l_name`, `emp_email`, `password`) VALUES ('" . $_POST['emp_name'] . "','" . $_POST['l_name'] . "','$email','$password')";
         $sql = "INSERT INTO `employees`(`emp_name`, `emp_positon`, `emp_email`, `emp_age`, `emp_sdate`, `emp_salary`) VALUES ('" . $_POST['emp_name'] . "','" . $_POST['emp_positon'] . "','$email', '" . $_POST['emp_age'] . "','" . $_POST['emp_sdate'] . "','" . $_POST['emp_salary'] . "')";
         mysqli_query($conn, $sql);
         if (mysqli_affected_rows($conn) > 0) {
