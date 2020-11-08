@@ -45,41 +45,49 @@ if (isset($_POST['emp_name'])) {
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label class="small mb-1" for="employeeName">Name</label>
-                                                <input name="emp_name" class="form-control py-4" required id="employeeName" type="text" placeholder="Enter Name" />
+                                                <input name="emp_name" class="form-control py-4" required
+                                                    id="employeeName" type="text" placeholder="Enter Name" />
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label class="small mb-1" for="position">Position</label>
-                                                <input name="emp_positon" class="form-control py-4" required id="position" type="text" placeholder="Enter Position" />
+                                                <input name="emp_positon" class="form-control py-4" required
+                                                    id="position" type="text" placeholder="Enter Position" />
                                             </div>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <label class="small mb-1" for="empEmailAddress">Email</label>
-                                        <input name="emp_email" class="form-control py-4" required id="empEmailAddress" type="email" aria-describedby="emailHelp" placeholder="Enter email address" />
+                                        <input name="emp_email" class="form-control py-4" required id="empEmailAddress"
+                                            type="email" aria-describedby="emailHelp"
+                                            placeholder="Enter email address" />
                                     </div>
                                     <div class="form-row">
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label class="small mb-1" for="emp_age">Age</label>
-                                                <input name="emp_age" class="form-control py-4" required id="emp_age" type="number" placeholder="Enter Age" />
+                                                <input name="emp_age" class="form-control py-4" required id="emp_age"
+                                                    type="number" placeholder="Enter Age" />
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label class="small mb-1" for="startdate">Start Date</label>
-                                                <input name="emp_sdate" class="form-control py-4" required id="startdate" type="date" placeholder="Start date" />
+                                                <input name="emp_sdate" class="form-control py-4" required
+                                                    id="startdate" type="date" placeholder="Start date" />
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label class="small mb-1" for="salary">Start Date</label>
-                                                <input name="emp_salary" class="form-control py-4" required id="salary" type="number" placeholder="Enter Salary" />
+                                                <input name="emp_salary" class="form-control py-4" required id="salary"
+                                                    type="number" placeholder="Enter Salary" />
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="form-group mt-4 mb-0"><button type="submit" class="btn btn-primary btn-block">Add Employee</button></div>
+                                    <div class="form-group mt-4 mb-0"><button type="submit"
+                                            class="btn btn-primary btn-block">Add Employee</button></div>
                                 </form>
                             </div>
                         </div>

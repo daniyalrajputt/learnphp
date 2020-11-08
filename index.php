@@ -98,15 +98,15 @@ require_once('partials/top_nav.php');
                                         $i = 1;
                                         while ($row = mysqli_fetch_assoc($employeeList)) {
                                     ?>
-                                            <tr>
-                                                <td><?= $i++ ?></td>
-                                                <td><?= $row['emp_name'] ?></td>
-                                                <td><?= $row['emp_positon'] ?></td>
-                                                <td><?= $row['emp_email'] ?></td>
-                                                <td><?= $row['emp_age'] ?></td>
-                                                <td><?= $row['emp_sdate'] ?></td>
-                                                <td><?= $row['emp_salary'] ?></td>
-                                            </tr>
+                                    <tr>
+                                        <td><?= $i++ ?></td>
+                                        <td><?= $row['emp_name'] ?></td>
+                                        <td><?= $row['emp_positon'] ?></td>
+                                        <td><?= $row['emp_email'] ?></td>
+                                        <td><?= $row['emp_age'] ?></td>
+                                        <td><?= $row['emp_sdate'] ?></td>
+                                        <td><?= $row['emp_salary'] ?></td>
+                                    </tr>
                                     <?php
                                         }
                                     }
